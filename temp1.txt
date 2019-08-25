@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Template</title>
+</head>
+<body>
+<div>
+	<div>
+		<div>
+			<h4>Logo ONE</h4>
+		</div>
+		<div>
+			<div>HOME</div>
+			<div>ABOUT US</div>
+			<div>SERVICES</div>
+			<div>CONTACT</div>
+		</div>
+	</div>
+	<div>
+		<div>
+			<h3>Lorem ipsum dolor sit amet.</h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Architecto facere id rerum totam unde tempora nostrum aspernatur minus impedit alias. </p>
+			<h5>Read more</h5>
+		</div>
+	</div>
+	<div>
+		<div>
+			<em>Featured Services</em>
+			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, enim?</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>

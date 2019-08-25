@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    margin: 1%;
+}
+#hdr{
+    width: 75%;
+    margin: 0px auto;
+}
+#fiPat{
+    box-sizing: border-box;
+    margin-bottom: 5%;
+    /* background: #eee; */
+}
+#lI{
+    list-style-type: none;
+}
+#spe{
+    color: teal; 
+    padding-left: 170px;
+}
+#spme{
+    padding-left: 170px;
+}
+.btn{
+    margin-left: 38%;
+    margin-top: 10%;
+    background: teal;
+    color: white;
+    padding: 1%;
+}
+.btnt{
+    margin-left: 39%;
+    margin-top: 3%;
+    background: teal;
+    color: white;
+    padding: 1%;
+}
+.sCh{
+    color: #fff;
+    text-align: center;
+}
+.svPat{
+    width: 70%;
+    margin: 2% auto;
+    /* background: #bbb; */
+}
+.sxPat{
+    background: url(./images/bckimgt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding: 10%;
+    padding-bottom: 180px;
+    color: white;
+}
+.lIt{
+    margin: 1% 0%;
+    padding: 1% 3%;
+    background: #ccc;
+}
+.fiElt{
+    float: left;
+    width: 30%;
+    margin: 5px 70px;
+}
+.fiElo{
+    float: left;
+    width: 50%;
+    margin-left: 9%;
+    /*background: #0ab;*/
+}
+.frEl{
+    float: left;
+    padding: 50px 4px;
+    margin: 0px 2px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: white;
+    /*background: #61a776;*/
+}
+.secHdr{
+    background: url(./images/bckimg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.txtAl{
+    text-align: center;
+}
+.detPat{
+    width: 50%;
+    margin: 0% auto;
+    padding: 10%;
+}
+.trdPat{
+    width: 50%;
+    margin: 5% auto;
+   /* background: #ddd;*/
+}
+.frPat{
+    margin: 3% auto;
+    padding: 0% 3%;
+    background: teal;
+}
+.menuItem{
+    /*background: pink;*/
+    float: left;
+    padding: 10px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clr{
+    clear: both;
+}
