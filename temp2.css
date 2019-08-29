@@ -1,0 +1,199 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#frPrt{
+    padding: 1%;
+    background: #eaeaea;
+}
+#mainMenu{
+    width: 40%;
+    color: blue;
+    text-align: center;
+}
+#mainMenu1{
+    width: 20%;
+    text-align: center;
+}
+#btn1{
+    background: blue;
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
+#frImg{
+    width: 29%;
+    margin: 1%;
+    margin-left: 4%;
+    display: inline;
+}
+#seImg{
+    width: 60.5%;
+    display: inline;
+    margin: 1%;
+}
+#thPrt{
+    background: #ddd;
+    margin: 0% auto;
+    padding: 1.5% 20%;
+    text-align: center;
+    display: block;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+#thPrt > div {
+    margin: 3%;
+    text-align: center;
+    display: inline;
+    color: blue;
+}
+#foPrtIm{
+    margin: 0 auto;
+    width: 100%;
+    height:417px;
+
+}
+#foPrtIm1 + img{
+    margin: 12px 0px;
+}
+
+#foPrt{
+    margin: 1.5% 5%;
+    width: 100%;
+}
+#foPrt > div {
+    padding-left: 1%;
+    width: 49%;
+    /* height: 100%; */
+}
+#mAd{
+    margin: 1.5% 8% 1.5% 6%;
+}
+#mAd > h2{
+    margin: 1.5%;
+    text-align: center;
+    font-size: 30px;
+}
+#fiPrt > img{
+    margin: 2% 0.5% 2% 2%;
+    width: 17%;
+    display: inline;
+}
+#siPrt{
+    margin: 1%;
+}
+#siPrtO{
+    width: 70%;
+    float: left;
+}
+#siPrtO > div{
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+#siPrtT{
+    margin-left: 0.5%;
+    width: 29%;
+    float: right;
+}
+#siPrtT > h3{
+    margin: 5% 0%;
+    font-size: 100%
+}
+#siPrtT > div{
+    margin: 5% 0%;
+}
+#siPrtT > div > img{
+    border: 1px solid #ddd;
+    padding: 2px;
+    display: inline;
+    position: static;
+    box-sizing: border-box;
+}
+#siPrtT > div > span {
+    margin-left: 0.5%;
+    width: 15%;
+    display: inline;
+    position: absolute;
+    font-size: 100%;
+}
+#pgFtr{
+    margin: 0% 0% 0% 5.8%;
+    padding: 1% 0% 1% 1%;
+    border-right: 1px solid #ddd;
+    width: 60%;
+}
+#sePrt{
+    background: white;
+    border: 2px solid #ddd;
+}
+#sePrtOn, #sePrtTw, #sePrtTh{
+    float: left;
+    margin: 1% 0% 1% 2%;
+    width: 30%;
+}
+#sePrtOn > div > img{
+    border: 1px solid #ddd;
+    padding: 0.5%;
+    background: white;
+}
+.icnPrt > i{
+    margin: 1%;
+}
+.icnPrt{
+    margin: 2% 0% 2% 1%;
+}
+.icnPrt + span{
+    display: block;
+    width: 80%;
+    height: 50%;
+    font-size: 110%;
+    line-height: 170%;
+}
+.icnPrt1{
+    text-align: center;
+    color: blue;
+}
+.icnPrt1 > i{
+    margin: 2% 0% 2% 7%;
+}
+.icnPrt1 > i > span{
+    font-size: 60%;
+    color: black;
+}
+.blHd{
+    color: blue;
+    font-size: 130%;
+}
+.siPrtOIm1{
+    width: 100%;
+}
+.siPrtOIm{
+    width: 50%;
+    margin: 1% 1% 1% 0%;
+    display: inline;
+    position: static;
+}
+.siPrtOIm + div{
+    margin: 1%;
+    display: inline;
+    width: 40%;
+    position: absolute;
+}
+.menuItem{
+    float: left;
+    margin: 1% 3%;
+}
+.disIn{
+    display: inline;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clr{
+    clear: both;
+}
