@@ -1,0 +1,72 @@
+*{
+    margin-left: 2%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+button {
+    width: 40%;
+    padding: 5% 0% 5% 0%;
+}
+/* body{
+    background: #37517e;
+    color: white;
+} */
+#rHdr{
+    margin-left: 0%;
+    padding:1% 2% 1% 50%;
+    background: pink;
+    display: inline;
+}
+#sePrtL{
+    width: 30%;
+    background : powderblue;
+    display: inline;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    z-index: 0;
+}
+#sePrtR{
+    width: 30%;
+    background: palegreen;
+    display: inline;
+    position: absolute;
+    top: 15%;
+    right: 9%;
+    z-index: 0;
+}
+#sePrtR > input, #sePrtR > input + span{
+    padding: 5%;
+}
+#sePrtR >  div > input, #sePrtR >  div > input + span{
+    padding: 5%;
+    margin-left: 0%;
+}
+#thPrt{
+    width: 60%;
+    height: 50%;
+    display: block;
+    position: absolute;
+    top: 95%;
+    background: cornflowerblue;
+    left: 15%;
+    z-index: 0;
+}
+#hv:hover span{
+    display: block;
+}
+.hd{
+    margin-top:2%;
+    margin-bottom: 1%;
+    display: none;
+}
+.seR {
+    margin-top:2%;
+    margin-bottom: 1%; 
+}
+.dIn{
+    display: inline;
+}
+.dBk{
+    display: block;
+}
