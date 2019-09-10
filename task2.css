@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 1%;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(156, 188, 44);
+}
+input{
+    width: 30%;
+}
+div{
+    margin: 1% auto;
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid white;
+    border-radius: 10px;
+}
+label{
+    padding-right: 15%;
+    font-size: 140%;
+    font-weight: bold;
+}
+button{
+    margin: 2% 40%;
+    border-radius: 50px;
+    background: rgb(56, 67, 19);
+    color: white;
+    width: 20%;
+    text-align: center;
+    opacity: 0.5;
+}
+input[type=radio]{
+    width: 4%;
+    margin: 1% 0%;
+}

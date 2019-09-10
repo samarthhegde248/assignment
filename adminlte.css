@@ -1,0 +1,158 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#nav{
+    width: 20%;
+    height: 100%;
+    background: #222d32;
+    color: white;
+    float: left;
+    padding-bottom: 75.8%;
+}
+#navi{
+    width: 4.5%;
+    height: 100%;
+    padding-bottom: 78%;
+    background: #222d32;
+    color: white;
+    float: left;
+    display: none;
+}
+#navi > i{
+    display: block;
+    text-align: center;
+    margin-top: 50%;
+}
+#nHdri{
+    height: 10%;
+    padding: 19% 0.5%;
+    text-align: center;
+    font-size: 180%;
+    color: white;
+    background: #367fa9;
+}
+/* #meni :hover{
+    
+} */
+#prf > i, #prf > span {
+    display: inline-block;
+    margin: 2% 0% 2% 2%;
+}
+#nHdr{
+    height: 10%;
+    padding: 3% 0.5%;
+    text-align: center;
+    font-size: 180%;
+    color: white;
+    background: #367fa9;
+}
+#srch{
+    text-align: center;
+    margin: 3%;
+}
+#srch > input[type=text]{
+    width: 95%;
+    background-color: #37484f;
+    border: none;
+    padding: 3%;
+}
+#main{
+    width: 80%;
+    /* width: 95.5%; */
+    padding-bottom: 100%;
+    height: 100%;
+    float: left;
+    background: #ecf0f5;
+}
+#mHdr{
+    height: 10%;
+    font-size: 80%;
+    color: white;
+    background: #3c8dbc;
+    padding: 1.25% 0;
+}
+#mHdr > div{
+    text-align: center;
+    display: inline;
+}
+#mHdr > div > i{
+    padding: 0% 1%;
+    text-align: center;
+}
+#mDshbrd1 > span, small{
+    margin: 0.5%;
+}
+#mDshbrd2 > div{
+    width: 20%;
+    background: white;
+    margin: 2%;
+}
+#mDshbrd2 > div > i{
+    height: 100%;
+    width: 40%;
+    padding: 1%;
+    text-align: center;
+    display: block;
+    color: white;
+}
+#mDshbrd2 > div > small{
+    padding: 3% 4%;
+    width: 59%;
+    background: white;
+    display: block;
+}
+#mCrt{
+    margin: 0.5% auto;
+    width: 97%;
+    background: white;
+}
+.nMain{
+    background: #222d32;
+}
+.nMain > div{
+    padding: 6% 0% 0% 10%;
+    font-size: 90%;
+}
+.nmainHd {
+    background: #37484f;
+    color: #999999;
+    padding:3% 0% 3% 6% !important;
+}
+.GraphWrapper {
+    width:100%;
+    margin: 0% auto;
+}
+
+.BlueBar {
+    height:10px;
+    margin:2px auto;
+    background-color:#00c0ef;
+    display: inline-block;
+    z-index: 0;
+    position: relative;
+    top: 0%;
+    left: 1%;
+}
+
+.RedBar {
+    height:10px;
+    margin:2px auto;
+    background-color:#CCCCFF;
+    display: inline-block;
+    z-index: 1;
+    position: relative;
+    top: 0%;
+    right: 2%;
+}
+.clr{
+    clear: both;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}

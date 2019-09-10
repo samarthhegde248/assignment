@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Task2</title>
+        <link rel="stylesheet" type="text/css" href="./task2.css">
+        <link rel="stylesheet" type="text/css" href="./fonts/css/font-awesome.min.css">
+    </head>
+    <body>
+        <form action="#">
+            <h1>Step 1: Your details</h1>
+            <div id="nm">
+                <label>Name</label>
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div id="em">
+                <label>Email</label>
+                <input type="email" placeholder="Enter your email">
+            </div>
+            <div id="pn">
+                <label>Phone</label>
+                <input type="phone" placeholder="Enter your phone">
+            </div>
+            <h1>Step 2: Delivery Address</h1>
+            <div id="ad">
+                <label style="padding-right: 13.5%;">Address</label>
+                <input type="address" style="padding: 6% 0%;">
+            </div>
+            <div id="pc">
+                <label style="padding-right: 15.2%;">Email</label>
+                <input type="number">
+            </div>
+            <div id="cn">
+                <label>Phone</label>
+                <input type="text">
+            </div>
+            <h1>Step 3: Card Details</h1>
+            <div id="cdrad">
+                <label style="display: block;">Card Type</label>
+                <input type="radio" name="cardtype" value="VISA" style="margin: 0%; padding:0%;"><i class="fa fa-cc-visa" aria-hidden="true"></i> VISA
+                <input type="radio" name="cardtype" value="AMEX"><i class="fa fa-cc-amex" aria-hidden="true"></i> AMEX
+                <input type="radio" name="cardtype" value="MASTERCARD"><i class="fa fa-cc-mastercard" aria-hidden="true"></i> MASTERCARD
+            </div>
+            <div id="crnum">
+                <label>Card Number</label>
+                <input type="number">
+            </div>
+            <div id="scrcrd">
+                <label>Security Code</label>
+                <input type="number">
+            </div>
+            <div id="nmcrd">
+                <label style="padding-right: 14.5%;">Name on Card</label>
+                <input type="text" placeholder="Enter the name on the card">
+            </div>
+            <button type="button">Buy It!</button>
+        </form>
+    </body>
+</html>
