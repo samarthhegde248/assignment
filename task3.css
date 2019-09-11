@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#menu{
+    width: 20%;
+    background: rgb(43,165,229);
+    margin: 1%;
+    border: 1px groove;
+}
+#menu > div {
+    padding: 5% 0%;
+    border-bottom: 2px groove #ddd;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#prd1, #prd2 {
+    padding: 5% 0%;
+    border-bottom: 2px ridge grey;
+    background: rgb(66,72,82);
+}
+#sbprd > div {
+    padding: 5% 0%;
+    border-bottom: 2px groove grey;
+    background: rgb(73,80,90);
+}
+i{
+    padding-left: 45%;
+}
