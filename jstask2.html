@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Task2</title>
+</head>
+<body>
+    <script src="./task.js"></script>
+    <script src="./jstask2.js"></script>
+    <script>
+        var names = "<ul>\n";
+        var namt = "<table style='text-align: center;''><thead><th>name</th><th>email</th><th>phone</th></thead><tbody>"
+        for(var i=0; i < users.length; i++){
+            if(i>4){
+                names += "</ul>"
+                break;
+            }
+            names += "<li>"+users[i].name+"</li>\n"
+        }
+        document.write(names);
+        for(var i=0; i<users.length; i++){
+            if(i>4){
+                namt += "</tbody></table>"
+                break;
+            }
+            namt += "<tr><td>"+ users[i].name + "</td><td>" + users[i].email + "</td><td>" + users[i].phone + "</td></tr>";
+        }
+        document.write(namt);
+    </script>
+</body>
+</html>
