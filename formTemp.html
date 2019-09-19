@@ -317,7 +317,6 @@
         var main1Wrap = document.getElementById('main1Wrap');
         var goback = document.getElementById('goback');
 
-        var cnt = 1;
         dashboard.onclick = function () {
             tableBind.style.display = 'block';
             main1Wrap.style.display = 'none';
@@ -379,8 +378,9 @@
             }
 
             var TR = document.createElement('tr');
+
             var slTd = document.createElement('td');
-            slTd.innerText = arr.indexOf(userName);
+            slTd.innerText = arr.length;
 
             var NameTd = document.createElement('td');
             NameTd.innerText = userName.value;
@@ -439,19 +439,39 @@
                 email.value = tdText[3].innerText;
                 contact.value = tdText[4].innerText;
 
-                for (var j = 0; j < gender.length; j++) {
-                    if (gender[j].checked == true) {
-                        gender[j].checked = false;
+                if (genderValue == 'male') {
+                    gender[0].checked = true;
+                }else{
+                    gender[1].checked = true;
+                }
 
-                    }
-                };
-
-                country.value = "";
-                
-
-                // tdText[1].innerText = userName.value;
+                country.value = tdText[6].innerText;
             }
 
+            Delete.addEventListener('click',function(){
+                var remv = this.parentNode.parentNode.rowIndex;
+                document.getElementById('tBind').deleteRow(remv-1);
+            });
+
+            update.addEventListener('click', function(){
+                for (var i = 0; i < gender.length; i++) {
+                if (gender[i].checked == true) {
+                    console.log(gender[i].value);
+                    genderValue = gender[i].value;
+
+                    }
+                }
+                NameTd.innerText = userName.value;
+                passTd.innerText = password.value;
+                emailTd.innerText = email.value;
+                contactTd.innerText = contact.value;
+                genderTd.innerText = genderValue;
+                countryTd.innerText = country.value;
+                clr();
+
+                tableBind.style.display = 'block';
+                main1Wrap.style.display = 'none'
+            });
 
             // if(userName.value == '' || userName.value.length < 3){
             //     console.log('please enter min 3 char"s');
@@ -467,7 +487,7 @@
             //     passerror.style.color = 'red';
             // }
 
-
+            function clr(){
             userName.value = "";
             password.value = "";
             email.value = "";
@@ -481,8 +501,8 @@
             };
 
             country.value = "";
-
-
+        }
+        clr();
 
         });
     </script>
