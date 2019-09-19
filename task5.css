@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 1%;
+}
+#hdr{
+    background: url(./images/bckimg.jpg);
+    text-align: center;
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#hdr > div{
+    display: inline-block;
+    padding: 1% 2%;
+    background: rgba(255,255,255,0.2);
+    margin: 0% 2% 0% 2%;
+}
+#ibdy{
+    display: inline-block;
+    width: 20%;
+    background: green;
+}
+#ibdy > img{
+    display: block;
+    margin: 4% auto;
+    width: 75%;
+    height: 30vh;
+    background: lightgreen;
+    text-align: center;
+    border: 2px solid black;
+}
+#cbdy{
+    width: 75%;
+    display: inline-block;
+    position: relative;
+    bottom: 200px;
+}

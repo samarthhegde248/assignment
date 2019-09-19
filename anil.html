@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    #btn{
+        width: 100px;
+        background: blue;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <button id="btn">
+        LIKE
+    </button>
+    <script>
+    var btn = document.getElementById('btn');
+    var cnt = 0;
+    btn.addEventListener('click', function clka(){
+        if (cnt== 0){
+            btn.style.background = 'red';
+            cnt = 1;
+        }else{
+            btn.style.background = 'blue';
+            cnt = 0;
+        }
+    })
+
+    </script>
+</body>
+</html>
